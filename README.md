@@ -1,4 +1,4 @@
-# toDoListChromeExtension
+# tdlist-Chrome_Extension
 
 1. Go to chrome://extensions/
 2. Enable Developer mode
