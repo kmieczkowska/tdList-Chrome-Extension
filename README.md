@@ -1,4 +1,4 @@
-# tdlist-Chrome_Extension
+# tdlist-Chrome-Extension
 
 1. Go to chrome://extensions/
 2. Enable Developer mode
