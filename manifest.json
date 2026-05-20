@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Pick me td list",
+    "version": "1.0",
+    "description": "Simple extensions for adding tasks",
+    "permissions": [
+        "storage"
+    ],
+    "action":{
+        "default_toDoList": "tdlist.html"
+    }
+}
