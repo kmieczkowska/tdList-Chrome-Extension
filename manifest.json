@@ -6,7 +6,7 @@
     "permissions": [
         "storage"
     ],
-    "action":{
-        "default_toDoList": "tdlist.html"
+    "action": {
+        "default_popup": "tdlist.html"
     }
 }

@@ -1,16 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <style></style>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 250px;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    .input-section {
+      display: flex;
+      gap: 5px;
+      margin-bottom: 10px;
+    }
+    input {
+      flex: 1;
+      padding: 5px;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .delete-btn {
+      color: red;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-    <h3>My tasks</h3>
-    <div>
-        <input type="text" id="taskInputId" placeholder="type new task ...">
-        <button id="addBtn">Dodaj</button>
-    </div>
-    <ul id="taskList"></ul>
-    <script src="tdlist.js"></script>
+  <h3>Moje Zadania</h3>
+  <div class="input-section">
+    <input type="text" id="taskInput" placeholder="Nowe zadanie...">
+    <button id="addBtn">Dodaj</button>
+  </div>
+  <ul id="taskList"></ul>
+
+  <script src="tdlist.js"></script>
 </body>
 </html>
